@@ -642,8 +642,10 @@
 
     .team-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 1rem;
+      max-width: 820px;
+      margin-inline: auto;
     }
 
     .doctor-card {
@@ -1220,10 +1222,6 @@
                   <span class="mini-avatar">PS</span>
                   <span><strong>Dr. Poonam Sachdeva</strong><span>MBBS, DHA</span></span>
                 </a>
-                <a class="lead-mini" href="#doctor-p-k-sachdeva">
-                  <span class="mini-avatar">PK</span>
-                  <span><strong>Dr. P K Sachdeva</strong><span>Cardiologist</span></span>
-                </a>
               </div>
             </div>
             <div class="panel-actions">
@@ -1309,20 +1307,6 @@
               </ul>
             </div>
             <p class="source-note">Source: <a href="https://www.justdial.com/Delhi/Dr-K-K-Sachdeva-Mayur-Medicare-Centre-Mayur-Vihar-Phase-1/011PXX11-XX11-150803173257-A7P7_BZDET" target="_blank" rel="noopener">Justdial clinic listing</a>.</p>
-          </article>
-
-          <article class="doctor-card reveal" id="doctor-p-k-sachdeva">
-            <div>
-              <span class="doctor-avatar credential">PK</span>
-              <h3>Dr. P K Sachdeva</h3>
-              <span class="doctor-role">Cardiologist listing</span>
-              <ul class="credential-list">
-                <li>Lybrate lists Mayur Medicare Centre as a cardiologist clinic at 81-6, Mayur Vihar Phase-1, Pratap Nagar.</li>
-                <li>The same listing names Dr. P K Sachdeva as the doctor at the clinic.</li>
-                <li>Cardiology profile is organized for quick review.</li>
-              </ul>
-            </div>
-            <p class="source-note">Source: <a href="https://www.lybrate.com/delhi/clinic/mayur-medicare-centre-mayur-vihar" target="_blank" rel="noopener">Lybrate clinic profile</a>.</p>
           </article>
         </div>
 
