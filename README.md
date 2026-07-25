@@ -2,6 +2,6 @@
 
 Single-page website for Mayur Medicare Centre in Plaza Complex, Pratap Nagar, Mayur Vihar-1, Delhi.
 
-The site uses real clinic storefront and interior photos as the visual direction: a blue LED-lit glass entrance, compact reception area, clean white-grey room, doctor profiles, and quick location actions. It is a static HTML/CSS/JS site with no backend.
+One clean page with only the essentials: Dr. Poonam Sachdeva, landmark directions (behind Jeevan Anmol Hospital, opposite Bittu Tikki), consultation days and timings, day-based fees, the services list, and the appointment phone number. Real storefront and interior photos help visitors recognize the clinic on arrival. Static HTML/CSS/JS, no backend.
 
 Doctor availability, consultation timings, and services can change, so visitors should confirm directly with the clinic before visiting.
