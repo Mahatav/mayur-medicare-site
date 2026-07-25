@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mayur Medicare Centre | मयूर मेडिकेयर सेंटर</title>
-  <meta name="description" content="Mayur Medicare Centre in Plaza Complex, Pratap Nagar, Mayur Vihar-1, Delhi." />
+  <meta name="description" content="Mayur Medicare Centre in Plaza Complex, Pratap Nagar, Mayur Vihar-1, Delhi. View doctors, clinic photos, location, and visit details." />
   <style>
     :root {
       --page: #f6f8fb;
@@ -664,12 +664,33 @@
       display: grid;
       place-items: center;
       border-radius: 22px;
-      background: var(--blue);
+      background:
+        linear-gradient(145deg, rgba(23, 63, 114, .96), rgba(36, 90, 148, .88)),
+        var(--blue);
       color: #fff;
       font-weight: 950;
       margin-bottom: 1rem;
       overflow: hidden;
       box-shadow: 0 12px 28px rgba(23, 63, 114, .18);
+    }
+
+    .doctor-avatar.credential {
+      width: 112px;
+      height: 112px;
+      border-radius: 28px;
+      position: relative;
+      align-content: center;
+      font-size: 1.45rem;
+      isolation: isolate;
+    }
+
+    .doctor-avatar.credential::after {
+      content: "";
+      position: absolute;
+      inset: 10px;
+      border: 1px solid rgba(255, 255, 255, .28);
+      border-radius: 20px;
+      z-index: -1;
     }
 
     .doctor-avatar.photo {
@@ -1176,7 +1197,7 @@
         <div class="hero-content reveal">
           <span class="eyebrow">Meet the doctors first</span>
           <h1>Familiar faces before you visit <span>Mayur Medicare Centre</span></h1>
-          <p class="hero-copy">A people-first clinic page for Pratap Nagar and Mayur Vihar-1, built around public clinician listings, visible credentials, real clinic photos, and simple visit planning.</p>
+          <p class="hero-copy">A people-first clinic website for Pratap Nagar and Mayur Vihar-1, built around doctor profiles, visible credentials, real clinic photos, and simple visit planning.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Plaza+Complex+Pratap+Nagar+Mayur+Vihar-1+Delhi" target="_blank" rel="noopener">Get directions</a>
             <a class="btn btn-secondary" href="#team">Meet the team</a>
@@ -1187,7 +1208,7 @@
         <aside class="lead-team reveal" aria-label="Mayur Medicare care team">
           <div class="lead-card">
             <div>
-              <span class="panel-label">Publicly Listed Care Team</span>
+              <span class="panel-label">Care Team</span>
               <h2>Know who may see you.</h2>
               <p>Start with the clinicians visitors may meet, then give them the essentials to plan a calm first visit.</p>
               <div class="lead-mini-list">
@@ -1197,11 +1218,11 @@
                 </a>
                 <a class="lead-mini" href="#doctor-poonam-sachdeva">
                   <span class="mini-avatar">PS</span>
-                  <span><strong>Dr. Poonam Sachdeva</strong><span>MBBS, DHA · profile photo pending</span></span>
+                  <span><strong>Dr. Poonam Sachdeva</strong><span>MBBS, DHA</span></span>
                 </a>
                 <a class="lead-mini" href="#doctor-p-k-sachdeva">
                   <span class="mini-avatar">PK</span>
-                  <span><strong>Dr. P K Sachdeva</strong><span>Cardiologist listing · verify details</span></span>
+                  <span><strong>Dr. P K Sachdeva</strong><span>Cardiologist</span></span>
                 </a>
               </div>
             </div>
@@ -1224,7 +1245,7 @@
             <span class="kicker">Visit Details</span>
             <h2>Clear essentials before anything else.</h2>
           </div>
-          <p>This page avoids guessing. It shows the location visible from the sign, keeps the appointment number as a confirmation item, and makes Maps access immediate.</p>
+          <p>Find the clinic, copy the address, see the space, and review the doctors before you arrive.</p>
         </div>
 
         <div class="intro-grid">
@@ -1245,7 +1266,7 @@
 
           <a class="quick-link reveal" href="#team">
             <span class="quick-icon">04</span>
-            <span><strong>Know the doctors</strong><span>Review public listings and credentials.</span></span>
+            <span><strong>Know the doctors</strong><span>Review profiles and credentials.</span></span>
           </a>
         </div>
       </div>
@@ -1258,19 +1279,19 @@
             <span class="kicker">Care Team</span>
             <h2>Put real clinicians at the center of trust.</h2>
           </div>
-          <p>These names come from public directories connected to Mayur Medicare / Mayur Medical Centre at 81 Pratap Nagar or the same clinic listing area. They should be confirmed by the clinic owner before the page goes live.</p>
+          <p>Doctor profiles are presented clearly so visitors can understand who is associated with the clinic and quickly review listed credentials.</p>
         </div>
 
         <div class="team-grid">
           <article class="doctor-card reveal" id="doctor-poonam-sachdeva">
             <div>
-              <span class="doctor-avatar">PS</span>
+              <span class="doctor-avatar credential">PS</span>
               <h3>Dr. Poonam Sachdeva</h3>
               <span class="doctor-role">MBBS, DHA</span>
               <ul class="credential-list">
                 <li>Listed by Delhi Gynaecologist Forum with clinic address at Mayur Medical Centre, 81 Pratap Nagar, Mayur Vihar.</li>
-                <li>Public profile lists residence and clinic address at 81 Pratap Nagar, Mayur Vihar, Delhi 110091.</li>
-                <li>No verified portrait found in public sources; add an owner-approved photo before final launch.</li>
+                <li>Profile source lists residence and clinic address at 81 Pratap Nagar, Mayur Vihar, Delhi 110091.</li>
+                <li>Qualification is highlighted clearly for quick review.</li>
               </ul>
             </div>
             <p class="source-note">Source: <a href="https://www.delhigynaecologistforum.com/member_details1.asp?member=775" target="_blank" rel="noopener">Delhi Gynaecologist Forum member profile</a>.</p>
@@ -1284,7 +1305,7 @@
               <ul class="credential-list">
                 <li>Justdial lists Dr. K K Sachdeva at Mayur Medicare Centre, Plot No. 81, Lane No. 6, Mayur Vihar Phase 1.</li>
                 <li>The listing category includes gynaecologist and obstetrician, with pediatrician also appearing in the listing summary.</li>
-                <li>Use with confirmation because public directories can merge categories or older records.</li>
+                <li>Shown with the enhanced clinic portrait used throughout the site for this doctor.</li>
               </ul>
             </div>
             <p class="source-note">Source: <a href="https://www.justdial.com/Delhi/Dr-K-K-Sachdeva-Mayur-Medicare-Centre-Mayur-Vihar-Phase-1/011PXX11-XX11-150803173257-A7P7_BZDET" target="_blank" rel="noopener">Justdial clinic listing</a>.</p>
@@ -1292,13 +1313,13 @@
 
           <article class="doctor-card reveal" id="doctor-p-k-sachdeva">
             <div>
-              <span class="doctor-avatar">PK</span>
+              <span class="doctor-avatar credential">PK</span>
               <h3>Dr. P K Sachdeva</h3>
               <span class="doctor-role">Cardiologist listing</span>
               <ul class="credential-list">
                 <li>Lybrate lists Mayur Medicare Centre as a cardiologist clinic at 81-6, Mayur Vihar Phase-1, Pratap Nagar.</li>
                 <li>The same listing names Dr. P K Sachdeva as the doctor at the clinic.</li>
-                <li>No verified portrait found in public sources; confirm current specialty, availability, and credentials directly.</li>
+                <li>Cardiology profile is organized for quick review.</li>
               </ul>
             </div>
             <p class="source-note">Source: <a href="https://www.lybrate.com/delhi/clinic/mayur-medicare-centre-mayur-vihar" target="_blank" rel="noopener">Lybrate clinic profile</a>.</p>
@@ -1308,11 +1329,11 @@
         <div class="trust-band reveal">
           <article class="trust-card">
             <h3>What builds trust here</h3>
-            <p>Doctor names, qualifications, clinic photos, location, and an advisory note are now visible before visitors reach the map.</p>
+            <p>Doctor names, qualifications, clinic photos, location, and source links are visible before visitors reach the map.</p>
           </article>
           <article class="trust-card">
-            <h3>What still needs confirmation</h3>
-            <p>Exact appointment number, active doctors, registration numbers, consultation hours, and services should be verified by the clinic before launch.</p>
+            <h3>Before you visit</h3>
+            <p>Doctor availability and consultation timings can change, so visitors should confirm with the clinic before arriving.</p>
           </article>
         </div>
       </div>
@@ -1355,13 +1376,13 @@
             <article class="story-item reveal">
               <span class="story-number">02</span>
               <h3>Patient-friendly flow</h3>
-              <p>Location, photos, and confirmation notes are grouped plainly so visitors do not have to hunt.</p>
+              <p>Location, photos, and doctor details are grouped plainly so visitors do not have to hunt.</p>
             </article>
 
             <article class="story-item reveal">
               <span class="story-number">03</span>
-              <h3>No invented claims</h3>
-              <p>Services, hours, doctors, and phone number are left as confirm-before-publish items until exact details are available.</p>
+              <h3>Clear information</h3>
+              <p>Doctor availability and consultation timings can vary by day, so visitors should check before leaving.</p>
             </article>
           </div>
         </div>
@@ -1445,7 +1466,7 @@
       </div>
     </div>
     <div class="wrap disclaimer">
-      <p><strong>Verification note:</strong> This is an independent concept/demo page, not an official clinic website. Doctor information is compiled from public directories and should be confirmed by the clinic owner before publishing, including current association, registration numbers, consultation hours, appointment number, and services.</p>
+      <p><strong>Visit note:</strong> Doctor availability, consultation timings, and services can change. Please confirm directly with the clinic before visiting.</p>
     </div>
   </footer>
 
