@@ -1,7 +1,7 @@
 # Mayur Medicare Centre — मयूर मेडिकेयर सेंटर
 
-Single-page concept site for [Mayur Medicare Centre](https://www.google.com/maps/search/?api=1&query=Mayur+Medicare+Centre+Patparganj), a doctor's clinic in Patparganj, Mayur Vihar, Delhi — built entirely from its public Google Maps listing (address, hours snippet, reviews, rating).
+Single-page concept site for Mayur Medicare Centre in Plaza Complex, Pratap Nagar, Mayur Vihar-1, Delhi.
 
-Peacock-feather theme ("Mayur" means peacock in Hindi): real photography from Wikimedia Commons, copy-to-clipboard contact chips, sortable reviews, dark/light mode, and a click-the-feather confetti easter egg. No backend, so it runs free on GitHub Pages.
+The refreshed version uses the real clinic storefront and interior photos as the visual direction: a blue LED-lit glass entrance, compact reception area, clean white-grey room, and quick location actions. It is still a static HTML/CSS/JS site with no backend.
 
-Unofficial fan/demo build, not affiliated with or endorsed by the clinic — see the in-page disclaimer for details.
+Unofficial concept/demo build, not affiliated with or endorsed by the clinic. Appointment number, hours, doctor details, and services should be confirmed before publishing as a production clinic website.
